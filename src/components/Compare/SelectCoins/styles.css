@@ -2,6 +2,16 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 1.5rem;
+    gap: 2rem;
     margin: 0rem 1.5rem;
+  }
+
+  @media screen and (max-width:580px){
+    .coins-flex {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 0.1rem;
+      margin: 0rem 1rem;
+    }
   }

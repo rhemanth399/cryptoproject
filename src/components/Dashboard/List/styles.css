@@ -95,7 +95,7 @@
  }
 }
 
-@media only screen and (max-width:480px)
+@media only screen and (max-width:580px)
 {
     .coin-logo{
         width:1.5rem !important;
@@ -118,7 +118,7 @@
   margin-left: 0rem !important;
   font-size: 0.3rem !important;
  }
- .coin-price{
+ .coin-price {
     font-size: 0.7rem !important;
     margin-left: 0.3rem !important;
     display: flex;
@@ -130,4 +130,14 @@
   margin-left: 0.1rem !important;
   font-weight: 600 !important;
  }
+
+ .list-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0rem !important;
+  margin: 0.2rem !important;
+  padding: 1rem !important;
+  border-radius: 1rem;
+}
 }
